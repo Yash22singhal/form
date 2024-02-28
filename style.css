@@ -4,26 +4,36 @@
 }
 
 body{
-    background-image: url(images/tree-736885_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.detail{
+.form_block{
     color: azure;
-    background-color: #FFDEE6;
+    background: #0d0d0eaa;
     color: #AF0404;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 10vh;
     padding: 10px;
-    width: 25%; 
     border: solid red 1px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: black 5px 4px 3px;
+    height: 60vh;
+    width: 25vw;
 }
 
 
 
 label, input{
     margin-bottom: 8px;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    height: 5vh;
+    width: 100%;
 }
