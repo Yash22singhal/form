@@ -4,36 +4,84 @@
 }
 
 body{
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(/images/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
-.form_block{
-    color: azure;
-    background: #0d0d0eaa;
-    color: #AF0404;
-    margin: auto;
-    margin-top: 10vh;
-    padding: 10px;
-    border: solid red 1px;
-    border-radius: 25px;
-    box-shadow: black 5px 4px 3px;
-    height: 60vh;
-    width: 25vw;
+.detail-form{
+    border: 1px solid white;
+    max-width: 400px;
+    margin: 20vh auto;
+    padding: 20px;
+    font: 13px;
+    background: white;
 }
 
-
-
-label, input{
-    margin-bottom: 8px;
+.detail-form li{
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
 }
 
-label{
-    font-size: 25px;
+.detail-form label{
+    display: block;
+    margin: 0 0 3px 0;
+    color: black;
+    font-weight: bold;
 }
 
-input{
-    height: 5vh;
+.detail-form input{
+    box-sizing: border-box;
+    border: 1px solid cyan;
+    padding: 7px;
+    outline: none;
+}
+
+.detail-form input:focus{
+    box-shadow: 0 0 8px cyan;
+    border: 1px solid black;
+}
+
+.detail-form .divided{
+    width: 49%;
+}
+
+.detail-form .long{
     width: 100%;
 }
+
+.detail-form input[type=submit]{
+        background: #4B99AD;
+        border: none;
+        padding: 8px 15px;
+        color: #fff;
+}
+
+.detail-form input[type=submit]:hover{
+    background: white;
+    color: black;
+}
+
+
+
+/* li{
+    list-style: none;
+    display: block;
+} */
+
+/* .container form{
+    background-color: white;
+    padding: 15px 20px;
+    width: 40vw;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.container form input{
+    margin-bottom: 15px;
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 2px 0 2px 2px;
+} */
