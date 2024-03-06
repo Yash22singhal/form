@@ -10,11 +10,11 @@ body{
 }
 
 .detail-form{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     max-width: 400px;
     margin: 20vh auto;
     padding: 20px;
-    font: 13px;
+    font: 13px sans-serif;
     background: white;
 }
 
@@ -32,16 +32,16 @@ body{
     font-weight: bold;
 }
 
-.detail-form input{
+.detail-form input, button{
     box-sizing: border-box;
-    border: 1px solid cyan;
+    border: 1px solid #BEBEBE;
     padding: 7px;
     outline: none;
 }
 
 .detail-form input:focus{
-    box-shadow: 0 0 8px cyan;
-    border: 1px solid black;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
 }
 
 .detail-form .divided{
@@ -52,16 +52,18 @@ body{
     width: 100%;
 }
 
-.detail-form input[type=submit]{
-        background: #4B99AD;
-        border: none;
-        padding: 8px 15px;
-        color: #fff;
+.detail-form button{
+    margin: 2px;
+    background: #4B99AD;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
 }
 
-.detail-form input[type=submit]:hover{
-    background: white;
-    color: black;
+.detail-form button:hover{
+    background: #1aaabd;
+    box-shadow: 0 0 8px #58a1a1;
+    /* color: black; */
 }
 
 

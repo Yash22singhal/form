@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Form</title>
 </head>
 <body>
     <div class="container">
-        <form action="">
+        <form action="/success.html">
             <ul class="detail-form">
                 <li>
+                    <h2>SignUp</h2>
+                </li>
+                <li>
                     <label>Full Name</label>
-                    <input type="text" placeholder="First Name" class="divided" required>
+                    <input type="text" placeholder="First Name" class="divided" id="nameField" required>
                     <input type="text" placeholder="Last Name" class="divided">
                 </li>
                 <li>
                     <label>Email</label>
-                    <input type="text" placeholder="Email" class="long" required>
+                    <input type="email" placeholder="Email" id="emailField" class="long" required>
                 </li>
                 <li>
                     <label>Phone Number</label>
-                    <input type="tel" placeholder="Phone" class="long" required>
+                    <input type="number" placeholder="Phone" id="phoneField" class="long" required>
                 </li>
                 <li>
                     <label>Password</label>
-                    <input type="password" class="long" required>
+                    <input type="password" id="passwordField" class="long" placeholder="Enter Password" required>
                 </li>
                 <li>
                     <label>Confirm Password</label>
-                    <input type= "password" class="long" required>
+                    <input type= "password" id="confirmField" class="long" placeholder="Re-enter Password" required>
                 </li>
                 <li>
-                    <input type="submit" value="Submit">
+                    <button id="submitForm">Submit</button>
                 </li>
                 
             </ul>
         </form>
     </div>
+
+    <script src="/script.js"></script>
 </body>
 </html>
