@@ -7,15 +7,18 @@ body{
     background-image: linear-gradient(to bottom right, red, orange, yellow, white);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 #container{
     height: 100vh;
+    width: 100vw;
 }
 
 #congo{
     text-align: center;
-    font-size: 10vh;
+    font-size: 5vw;
     margin-top: 20vh;
     font-weight: bolder;
 }
@@ -23,7 +26,7 @@ body{
 #message{
     font-family: cursive;
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vw;
     margin-top: 5vh;
     font-weight: bold;
 }
