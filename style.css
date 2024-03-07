@@ -9,13 +9,20 @@ body{
     background-repeat: no-repeat;
 }
 
+.detail-form li h2{
+    color: black;
+}
+
 .detail-form{
-    /* border: 1px solid white; */
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     max-width: 400px;
     margin: 20vh auto;
     padding: 20px;
     font: 13px sans-serif;
-    background: white;
+    background: rgba(255, 255, 255, .35);
+    backdrop-filter: blur(5px);
 }
 
 .detail-form li{
@@ -65,25 +72,3 @@ body{
     box-shadow: 0 0 8px #58a1a1;
     /* color: black; */
 }
-
-
-
-/* li{
-    list-style: none;
-    display: block;
-} */
-
-/* .container form{
-    background-color: white;
-    padding: 15px 20px;
-    width: 40vw;
-    margin: auto;
-    margin-top: 15vh;
-}
-
-.container form input{
-    margin-bottom: 15px;
-    border: 1px black solid;
-    border-radius: 8px;
-    padding: 2px 0 2px 2px;
-} */
